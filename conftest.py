@@ -30,4 +30,4 @@ def logged_user(driver):
 
 
 def wait_for_element_located(driver, locator, time, condition):
-        return WebDriverWait(driver, time).until(condition(locator))
+    return WebDriverWait(driver, time).until(condition(locator))
